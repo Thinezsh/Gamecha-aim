@@ -1,0 +1,74 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+#conteneur-captcha {
+	text-align: center;
+	width: 100%;
+	max-width: 500px;
+}
+
+#banniere {
+	background-color: #4284DA;
+	color: white;
+	padding: 10px;
+	border-radius: 10px 10px 0 0;
+}
+
+#grille {
+	display: grid;
+	grid-template-columns: repeat(5, 80px);
+	grid-gap: 10px;
+	margin: 20px auto;
+	background-color: white;
+	padding: 20px;
+	border-radius: 0 0 10px 10px;
+}
+
+.case-grille {
+	width: 80px;
+	height: 80px;
+	background-color: #ddd;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.cible {
+	background-color: green;
+}
+
+#chrono {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+#statut {
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+#bouton-wiki {
+	display: none;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #4284DA;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#bouton-debut {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #4284DA;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
